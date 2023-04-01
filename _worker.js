@@ -1,5 +1,6 @@
 export default {
   async fetch(request, env) {
+        console.log('test')
     console.log(request.body)
     const url = new URL(request.url);
     url.host = "api.openai.com";
